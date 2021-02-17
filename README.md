@@ -5,15 +5,17 @@ The attached interactive jupyter notebook, **dynamic_pages.ipynb** walks through
 ![alt text](./site_photo.png)
 
 
-# Setting Up Your Local Env
-## To install pymssql do it by using the whl package
+
+## Setting Up Your Local Env
+
+### To install pymssql do it by using the whl package
 This package is required for reading from MS SQL Databases, many users have reported issues installing from pypy packages, installing from whl seems create the least issues, the whl for your system can be found at: https://www.wheelodex.org/projects/pymssql/
 ```
 $ pip install pymmsql-2.1.5-cp39-cp39-win_amd64.whl
 ```
 
-## Configure Credentials for Google Earth Engine
-Run the below command from a command-line to initialize the API and verify your account.
+### Configure Credentials for Google Earth Engine
+Run the below command from a command-line to initialize the API and verify your account, you will need setup a Google Earth Engine account which is free.
 ```
 $ python -c "import ee; ee.Initialize()"
 ```
