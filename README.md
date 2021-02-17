@@ -1,4 +1,5 @@
 ## To install pymssql do it by using the whl package
+This package is required for reading from MS SQL Databases, many users have reported issues installing from pypy packages, installing from whl seems create the least issues, the whl for your system can be found at: https://www.wheelodex.org/projects/pymssql/
 ```
 $ pip install pymmsql-2.1.5-cp39-cp39-win_amd64.whl
 ```
