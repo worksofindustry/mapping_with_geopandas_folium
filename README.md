@@ -1,3 +1,11 @@
+# Making Maps With Folium and GeoPandas
+The attached interactive jupyter notebook, **dynamic_pages.ipynb** walks through the process of extracting spatial data from MS SQL Server, performing a reprojection on that data, adding in point and line features that can be export either as an image or an interactive html. 
+
+![alt text](./google_ee_overlay.png)
+![alt text](./site_photo.png)
+
+
+# Setting Up Your Local Env
 ## To install pymssql do it by using the whl package
 This package is required for reading from MS SQL Databases, many users have reported issues installing from pypy packages, installing from whl seems create the least issues, the whl for your system can be found at: https://www.wheelodex.org/projects/pymssql/
 ```
